@@ -1,0 +1,29 @@
+<head>
+  <title>test</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+
+ {{> methodCall}}
+
+  {{> mystring}}
+
+ </body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="methodCall">
+	<p>Method Call: {{mcString}}</p>
+</template>
+
+<template name="mystring">
+	<p>MyString: {{myString}}</p>
+</template>
+
+
